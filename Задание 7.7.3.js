@@ -6,7 +6,7 @@ const users = [
   { name: "Eva", age: 25 }
 ];
 
-const adults = users.filter(user => user.age >=);
+const adults = users.filter(user => user.age >= 18);
 
 const names = adults.map(user => user.name);
 
